@@ -46,7 +46,7 @@
 			<form action="#" class="py-1">
 				<div class="input-group w-100">
 					<select class="custom-select"  name="category_name">
-						<option value="">All type</option>
+						<option value="">All Categories</option>
 						<option value="">Special</option>
 						<option value="">Only best</option>
 						<option value="">Latest</option>
@@ -114,7 +114,7 @@
 	<div class="card-body">
 <div class="row row-sm">
 	<aside class="col-md-3">
-<h5 class="text-uppercase">My Markets</h5>
+<h5 class="text-uppercase">Our Markets</h5>
 	<ul class="menu-category">
 		<li> <a href="#">Food &amp Beverage </a></li>
 		<li> <a href="#">Home Equipments </a></li>
@@ -141,13 +141,13 @@
 <!-- ================= main slide ================= -->
 <div class="owl-init slider-main owl-carousel" data-items="1" data-nav="true" data-dots="false">
 	<div class="item-slide">
-		<img src="images/banners/slide1.jpg">
+		<img src="<?php echo base_url('assets/images/banners/slide1.jpg');?>">
 	</div>
 	<div class="item-slide">
-		<img src="images/banners/slide2.jpg">
+		<img src="<?php echo base_url('assets/images/banners/slide2.jpg');?>">
 	</div>
 	<div class="item-slide">
-		<img src="images/banners/slide3.jpg">
+		<img src="<?php echo base_url('assets/images/banners/slide3.jpg');?>">
 	</div>
 </div>
 <!-- ============== main slidesow .end // ============= -->
@@ -158,7 +158,7 @@
 <h6 class="title-bg bg-secondary"> Qualified Suppliers</h6>
 <div style="height:280px;">
 	<figure class="itemside has-bg border-bottom" style="height: 33%;">
-		<img class="img-bg" src="images/items/item-sm.png">
+		<img class="img-bg" src="<?php echo base_url('assets/images/items/item-sm.png');?>">
 		<figcaption class="p-2">
 			<h6 class="title">One request, many offers </h6>
 			<a href="#">Good link</a>
@@ -166,14 +166,14 @@
 	</figure>
 
 	<figure class="itemside has-bg border-bottom" style="height: 33%;">
-		<img class="img-bg" src="images/items/1.jpg" height="80">
+		<img class="img-bg" src="<?php echo base_url('assets/images/items/1.jpg');?>" height="80">
 		<figcaption class="p-2">
 			<h6 class="title">One request, many offers </h6>
 			<a href="#">Good link</a>
 		</figcaption>
 	</figure>
 	<figure class="itemside has-bg border-bottom" style="height: 33%;">
-		<img class="img-bg" src="images/items/2.jpg" height="80">
+		<img class="img-bg" src="<?php echo base_url('assets/images/items/2.jpg');?>" height="80">
 		<figcaption class="p-2">
 			<h6 class="title">One request, many offers </h6>
 			<a href="#">Good link</a>
@@ -213,7 +213,7 @@
 		<p>Consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, cLorem ipsum dolor sit amet, cLorem ipsum dolor sit amet, cLorem ipsum dolor sit amet, c</p>
 		<a href="#" class="btn btn-warning">Explore</a>
-		<img src="images/items/item-sm.png" height="200" class="img-bg zoom-in">
+		<img src="<?php echo base_url('assets/images/items/item-sm.png');?>" height="200" class="img-bg zoom-in">
 	</div>
 </article>
 
@@ -304,147 +304,31 @@
 </header>
 
 <div class="row-sm">
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/3.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">Good item name</a></h6>
-			
-			<div class="price-wrap">
-				<span class="price-new">$1280</span>
-				<del class="price-old">$1980</del>
-			</div> <!-- price-wrap.// -->
-			
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/4.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">The name of product</a></h6>
-			<div class="price-wrap">
-				<span class="price-new">$280</span>
-			</div> <!-- price-wrap.// -->
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/5.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">Name of product</a></h6>
-			<div class="price-wrap">
-				<span class="price-new">$280</span>
-			</div> <!-- price-wrap.// -->
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/6.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">The name of product</a></h6>
-			<div class="price-wrap">
-				<span class="price-new">$280</span>
-			</div> <!-- price-wrap.// -->
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/3.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">Good item name</a></h6>
-			
-			<div class="price-wrap">
-				<span class="price-new">$1280</span>
-				<del class="price-old">$1980</del>
-			</div> <!-- price-wrap.// -->
-			
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/4.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">The name of product</a></h6>
-			<div class="price-wrap">
-				<span class="price-new">$280</span>
-			</div> <!-- price-wrap.// -->
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/5.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">Name of product</a></h6>
-			<div class="price-wrap">
-				<span class="price-new">$280</span>
-			</div> <!-- price-wrap.// -->
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/6.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">The name of product</a></h6>
-			<div class="price-wrap">
-				<span class="price-new">$280</span>
-			</div> <!-- price-wrap.// -->
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/3.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">Good item name</a></h6>
-			
-			<div class="price-wrap">
-				<span class="price-new">$1280</span>
-				<del class="price-old">$1980</del>
-			</div> <!-- price-wrap.// -->
-			
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/4.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">The name of product</a></h6>
-			<div class="price-wrap">
-				<span class="price-new">$280</span>
-			</div> <!-- price-wrap.// -->
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/5.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">Name of product</a></h6>
-			<div class="price-wrap">
-				<span class="price-new">$280</span>
-			</div> <!-- price-wrap.// -->
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
-<div class="col-md-2">
-	<figure class="card card-product">
-		<div class="img-wrap"> <img src="images/items/6.jpg"></div>
-		<figcaption class="info-wrap">
-			<h6 class="title "><a href="#">The name of product</a></h6>
-			<div class="price-wrap">
-				<span class="price-new">$280</span>
-			</div> <!-- price-wrap.// -->
-		</figcaption>
-	</figure> <!-- card // -->
-</div> <!-- col // -->
+    <?php if($product_data) {
+
+        foreach ($product_data as $k => $v): ?>
+
+            <div class="col-md-2">
+                <figure class="card card-product">
+                    <div class="img-wrap"><img src="images/items/3.jpg"></div>
+                    <figcaption class="info-wrap">
+                        <h6 class="title "><a href="#"><?php echo($v['product_info']['name']); ?></a></h6>
+
+                        <div class="price-wrap">
+                            <span class="price-new">$1280</span>
+                            <del class="price-old">$1980</del>
+                        </div> <!-- price-wrap.// -->
+
+                    </figcaption>
+                </figure> <!-- card // -->
+            </div> <!-- col // -->
+
+        <?php
+        endforeach;
+    }
+         ?>
+
+
 </div> <!-- row.// -->
 
 
